@@ -1,0 +1,1 @@
+//wajp to calculate number of vowels,consonants and numbers,special char seperately.

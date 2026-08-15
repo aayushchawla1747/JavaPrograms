@@ -13,7 +13,7 @@ Task:
 Create a NotificationSender reference pointing to an EmailNotification object and send a notification.
 */
 
-abstract class NotificationSender{
+/*abstract class NotificationSender{
 	String recipient;
 	String message;
 	NotificationSender(String recipient,String message){
@@ -23,6 +23,7 @@ abstract class NotificationSender{
 	public void send(String recipient,String message){
 		String formattedMessage;
 		formattedMessage=message+"is the formatted message.";
+		deliver(recipient, formattedMessage);
 	}
 	abstract void deliver(String recipient,String formattedMessageessage);
-}
+}*/
